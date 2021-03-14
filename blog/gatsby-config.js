@@ -1,6 +1,6 @@
-require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`
-});
+// require('dotenv').config({
+//   path: `.env.${process.env.NODE_ENV}`
+// });
 
 module.exports = {
   siteMetadata: {
@@ -17,8 +17,8 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `${process.env.SPACE_ID}`,
-        accessToken: `${process.env.ACCESS_TOKEN}`
+        spaceId: "94bdofyfqyar",
+        accessToken: "BxsF0j7xZ1EPIPjaevYxHuh4JU_ZLUvQr8V0TFdbUrs"
       }
     },
     `gatsby-transformer-remark`,
